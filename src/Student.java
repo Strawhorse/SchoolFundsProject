@@ -34,6 +34,11 @@ public class Student {
     public int getStudentID() {
         return studentID;
     }
+
+    public void payFee(int i) {
+        feesPaid += i;
+        School.updateTotalMoneyEarned(i);
+    }
 }
 
 
