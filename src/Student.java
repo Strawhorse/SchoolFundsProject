@@ -14,6 +14,26 @@ public class Student {
         this.feesPaid = 0;
         this.feesTotal = 110000;
     }
+
+    public void setGrade(int grade) {
+        this.grade = grade;
+    }
+
+    public int getGrade() {
+        return grade;
+    }
+
+    public int getFeesPaid() {
+        return feesPaid;
+    }
+
+    public int getFeesTotal() {
+        return feesTotal;
+    }
+
+    public int getStudentID() {
+        return studentID;
+    }
 }
 
 
