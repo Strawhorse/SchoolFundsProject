@@ -39,4 +39,13 @@ public class School {
     public void addStudent(Student student){
         students.add(student);
     }
+
+    // update total money earned
+    public static void updateTotalMoneyEarned(int MoneyEarned) {
+        totalMoneyEarned += MoneyEarned;
+    }
+
+    public static void updateTotalMoneySpent(int MoneySpent) {
+        totalMoneyEarned -= MoneySpent;
+    }
 }
