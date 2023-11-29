@@ -24,11 +24,11 @@ public class School {
         return students;
     }
 
-    public static int getTotalMoneyEarned() {
+    public int getTotalMoneyEarned() {
         return totalMoneyEarned;
     }
 
-    public static int getTotalMoneySpent() {
+    public int getTotalMoneySpent() {
         return totalMoneySpent;
     }
 
